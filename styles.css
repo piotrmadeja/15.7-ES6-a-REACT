@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.button-start {
+  position: absolute;
+  top: 83px;
+  left: 136px;;
+  width: 62px;
+  height: 20px;
+}
+
+.button-stop {
+  position: absolute;
+  top: 83px;
+  left: 210px;
+  width: 54px;
+  height: 20px;
+}
+
+.button-reset {
+  position: absolute;
+  top: 295px;
+  left: 167px;
+  width: 66px;
+  height: 20px;
+}
+
+.screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 148px;
+  left: 64px;
+  width: 269px;
+  height: 105px;
+  background: rgb(0,0,0,0.5)
+}
+
+#app { 
+  text-align: center;
+  font-size: 55px;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./timer.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
